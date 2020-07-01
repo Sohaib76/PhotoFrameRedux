@@ -1,0 +1,41 @@
+
+.figure{
+    flex-basis:calc(25% - 4rem);
+    border:1px solid #d3d3d3;
+    /* padding: 0rem; */
+    padding:2rem;
+    flex-grow:1;
+}
+
+
+.photo{
+
+    /* width: 100%; */
+    width:calc(100% + 4rem);
+    /* top, right, bottom: left; */
+    margin: -2rem 0rem 0rem -2rem;
+    /* margin-bottom: 2rem; */
+}
+
+p{
+    font-size: 1.6rem;
+    line-height: 1.5;
+    font-family: Verdana;
+    text-align: center;
+}
+
+.btnContainer{
+    display: flex;
+    justify-content: center;
+}
+
+
+.speech-bubble {
+    background: url("https://d30y9cdsu7xlg0.cloudfront.net/png/51904-200.png") center no-repeat;
+    background-size: contain;
+    padding: 10px;
+    margin: 5px;
+    display: inline-block;
+    border: none;
+    position: relative;
+}
